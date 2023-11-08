@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.title{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F5F7F8;
+}
+.cajaDatos{
+    width: 550px;
+    height: 650px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F7F8;
+}
