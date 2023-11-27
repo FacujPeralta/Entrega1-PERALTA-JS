@@ -5,6 +5,7 @@
 }
 
 h1 {
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,21 +13,25 @@ h1 {
 }
 
 .finalizacion {
-  width: 100%;
-  height: 500px;
+  width: 550px;
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
-
-p {
+.finalizacion p {
   display: flex;
+  flex-direction: column;
   margin: 20px;
   padding: 10px;
   background-color: #ccc;
   justify-content: center;
   font-size: 50px;
+}
+.finalizacion img:hover {
+  width: 550px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
